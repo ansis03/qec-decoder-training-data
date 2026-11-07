@@ -3,7 +3,7 @@
 Code and results for
 
 > **How Training Data Affect a 3D-CNN Surface-Code Decoder**\
-> Hyungsuk Lee, In-Nea Wang, Kang Woo Lee, Yunsik Son, Jin-Woo Jung, Junho Jeong\
+> Hyungsuk Lee, In-Nea Wang, Kang Woo Lee, Yunsik Son, Jin-Woo Jung, Junho Jeong (Dongguk University)\
 > Submitted to ICCDE 2027. The paper will be linked here after review.
 
 A neural decoder for quantum error correction learns from simulated shots, so which shots to generate, how many, and which training target each one carries are design choices. We compare them for one 3D convolutional neural network (3D-CNN) decoder on rotated surface-code memory experiments at distances 3, 5, and 7 under circuit-level noise, with minimum-weight perfect matching (MWPM) as the reference. The work has four studies and three follow-up checks whose pass criteria were fixed before they ran.
