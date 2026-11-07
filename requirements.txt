@@ -1,0 +1,9 @@
+# Analysis (analysis/): numpy, scipy, matplotlib; check_dem.py also needs stim.
+# Experiments (experiments/): numpy, stim, pymatching, torch with a CUDA GPU; the teacher study also needs tesseract-decoder.
+numpy>=2.0          # np.bitwise_count in experiments/exact_posterior.py
+scipy
+matplotlib
+stim
+pymatching
+torch
+tesseract-decoder

@@ -1,0 +1,81 @@
+{
+ "mwpm": 0.00324,
+ "seeds": [
+  5,
+  6
+ ],
+ "runs": [
+  {
+   "seed": 5,
+   "method": "hard",
+   "N": 1000000,
+   "steps": 6000,
+   "ler": 0.004048,
+   "ratio_mwpm": 1.249382716049383,
+   "sec": 96
+  },
+  {
+   "seed": 5,
+   "method": "hard",
+   "N": 2000000,
+   "steps": 9770,
+   "ler": 0.003335,
+   "ratio_mwpm": 1.029320987654321,
+   "sec": 147
+  },
+  {
+   "seed": 5,
+   "method": "tess_gap",
+   "N": 1000000,
+   "steps": 6000,
+   "ler": 0.003235,
+   "ratio_mwpm": 0.9984567901234569,
+   "sec": 91
+  },
+  {
+   "seed": 5,
+   "method": "mwpm_gap",
+   "N": 1000000,
+   "steps": 6000,
+   "ler": 0.003865,
+   "ratio_mwpm": 1.1929012345679013,
+   "sec": 91
+  },
+  {
+   "seed": 6,
+   "method": "hard",
+   "N": 1000000,
+   "steps": 6000,
+   "ler": 0.005953,
+   "ratio_mwpm": 1.8373456790123457,
+   "sec": 91
+  },
+  {
+   "seed": 6,
+   "method": "hard",
+   "N": 2000000,
+   "steps": 9770,
+   "ler": 0.002967,
+   "ratio_mwpm": 0.9157407407407407,
+   "sec": 147
+  },
+  {
+   "seed": 6,
+   "method": "tess_gap",
+   "N": 1000000,
+   "steps": 6000,
+   "ler": 0.003374,
+   "ratio_mwpm": 1.041358024691358,
+   "sec": 92
+  },
+  {
+   "seed": 6,
+   "method": "mwpm_gap",
+   "N": 1000000,
+   "steps": 6000,
+   "ler": 0.004351,
+   "ratio_mwpm": 1.3429012345679012,
+   "sec": 92
+  }
+ ]
+}

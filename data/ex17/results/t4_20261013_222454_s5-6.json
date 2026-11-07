@@ -1,0 +1,64 @@
+{
+ "mwpm": 0.00324,
+ "seeds": [
+  5,
+  6
+ ],
+ "epochs": 20,
+ "runs": [
+  {
+   "seed": 5,
+   "method": "hard",
+   "N": 1000000,
+   "steps": 9780,
+   "ler": 0.004843,
+   "ratio_mwpm": 1.4947530864197531,
+   "sec": 152
+  },
+  {
+   "seed": 5,
+   "method": "tess_gap",
+   "N": 1000000,
+   "steps": 9780,
+   "ler": 0.004012,
+   "ratio_mwpm": 1.2382716049382716,
+   "sec": 148
+  },
+  {
+   "seed": 5,
+   "method": "mwpm_gap",
+   "N": 1000000,
+   "steps": 9780,
+   "ler": 0.003821,
+   "ratio_mwpm": 1.1793209876543211,
+   "sec": 148
+  },
+  {
+   "seed": 6,
+   "method": "hard",
+   "N": 1000000,
+   "steps": 9780,
+   "ler": 0.005088,
+   "ratio_mwpm": 1.5703703703703704,
+   "sec": 148
+  },
+  {
+   "seed": 6,
+   "method": "tess_gap",
+   "N": 1000000,
+   "steps": 9780,
+   "ler": 0.003699,
+   "ratio_mwpm": 1.1416666666666668,
+   "sec": 148
+  },
+  {
+   "seed": 6,
+   "method": "mwpm_gap",
+   "N": 1000000,
+   "steps": 9780,
+   "ler": 0.003877,
+   "ratio_mwpm": 1.1966049382716049,
+   "sec": 148
+  }
+ ]
+}

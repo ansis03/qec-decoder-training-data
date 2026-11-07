@@ -1,0 +1,10 @@
+[run.sh] 20261013_220558 mode=idle others_cores=6 threads=16 nice=0 cmd=ex17/t3_seeds.py ex17/results/t2_labels_20261013_182227.npz 7,8
+{"seed": 7, "method": "hard", "N": 1000000, "steps": 6000, "ler": 0.003798, "ratio_mwpm": 1.1722222222222223, "sec": 95}
+{"seed": 7, "method": "hard", "N": 2000000, "steps": 9770, "ler": 0.003175, "ratio_mwpm": 0.9799382716049383, "sec": 147}
+{"seed": 7, "method": "tess_gap", "N": 1000000, "steps": 6000, "ler": 0.002981, "ratio_mwpm": 0.9200617283950618, "sec": 91}
+{"seed": 7, "method": "mwpm_gap", "N": 1000000, "steps": 6000, "ler": 0.003843, "ratio_mwpm": 1.1861111111111111, "sec": 91}
+{"seed": 8, "method": "hard", "N": 1000000, "steps": 6000, "ler": 0.004158, "ratio_mwpm": 1.2833333333333334, "sec": 91}
+{"seed": 8, "method": "hard", "N": 2000000, "steps": 9770, "ler": 0.003284, "ratio_mwpm": 1.0135802469135804, "sec": 147}
+{"seed": 8, "method": "tess_gap", "N": 1000000, "steps": 6000, "ler": 0.0034, "ratio_mwpm": 1.0493827160493827, "sec": 92}
+{"seed": 8, "method": "mwpm_gap", "N": 1000000, "steps": 6000, "ler": 0.003836, "ratio_mwpm": 1.1839506172839507, "sec": 92}
+done

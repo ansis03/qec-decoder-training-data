@@ -1,0 +1,3 @@
+[run.sh] 20261013_180739 mode=idle others_cores=4 threads=256 nice=19 cmd=ex17/t2_train.py 2000000
+MWPM LER 3.240e-03
+mwpm labels [57s]

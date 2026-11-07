@@ -1,0 +1,6 @@
+[run.sh] 20261013_224031 mode=idle others_cores=4 threads=8 nice=0 cmd=ex17/t7_train7.py ex17/results/t6_labels7_20261013_222513.npz 1 hard@1000000,hard@2000000,hard@4000000
+d=7 MWPM LER 1.341e-03, labels 50000
+{"seed": 1, "method": "hard", "N": 1000000, "steps": 6000, "ler": 0.016527, "ratio_mwpm": 12.324384787472036, "sec": 217}
+{"seed": 1, "method": "hard", "N": 2000000, "steps": 9770, "ler": 0.008661, "ratio_mwpm": 6.4586129753915, "sec": 338}
+{"seed": 1, "method": "hard", "N": 4000000, "steps": 19540, "ler": 0.003486, "ratio_mwpm": 2.5995525727069353, "sec": 665}
+done

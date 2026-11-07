@@ -1,0 +1,14 @@
+d=5 MWPM LER=3.331e-03
+  knob2        N= 2000000 LER=4.011e-03 (x1.20 MWPM) [620s]
+  knob3        N= 2000000 LER=3.349e-03 (x1.01 MWPM) [619s]
+  knob3+gap    N= 2000000 LER=3.605e-03 (x1.08 MWPM) [626s]
+  knob3+gap    N=  300000 LER=1.049e-02 (x3.15 MWPM) [389s]
+  sd           N=  300000 LER=1.010e-02 (x3.03 MWPM) [389s]
+  sdmix        N=  300000 LER=9.756e-03 (x2.93 MWPM) [389s]
+  mix0.3       N=  300000 LER=1.052e-02 (x3.16 MWPM) [389s]
+  knob3+gap    N= 1000000 LER=3.911e-03 (x1.17 MWPM) [390s]
+  sd           N= 1000000 LER=4.069e-03 (x1.22 MWPM) [390s]
+  sdmix        N= 1000000 LER=3.873e-03 (x1.16 MWPM) [389s]
+  mix0.3       N= 1000000 LER=3.546e-03 (x1.06 MWPM) [389s]
+  mix0.6       N= 1000000 LER=4.231e-03 (x1.27 MWPM) [389s]
+done 20261010_223510

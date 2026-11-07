@@ -1,0 +1,7 @@
+[run.sh] 20261013_175703 mode=idle others_cores=4 threads=256 nice=19 cmd=ex17/t1_teacher.py 50000
+Traceback (most recent call last):
+  File "<server>/code/ex17/t1_teacher.py", line 10, in <module>
+    exec(open(os.path.join(here, 'b1_pilot.py'), encoding='utf-8').read().split('SETTINGS = []')[0])   # exact_joint, enc
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 13, in <module>
+ModuleNotFoundError: No module named 'torch'

@@ -1,0 +1,6 @@
+[run.sh] 20261013_222116 mode=idle others_cores=4 threads=256 nice=0 cmd=ex17/t5_speed7.py
+Traceback (most recent call last):
+  File "<server>/code/ex17/t5_speed7.py", line 15, in <module>
+    for k in (0, 1): dec.cost_from_errors(dec.decode_to_errors(np.concatenate([s.astype(bool), [bool(k)]])))
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Syndrome array size (337) does not match the number of detectors in the decoder (529).

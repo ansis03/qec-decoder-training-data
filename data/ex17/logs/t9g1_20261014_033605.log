@@ -1,0 +1,10 @@
+[run.sh] 20261014_033605 mode=idle others_cores=4 threads=8 nice=0 cmd=ex17/t9_d5_controls.py ex17/results/t2_labels_20261013_182227.npz 3,4
+{"seed": 3, "method": "hard_ls05", "N": 1000000, "steps": 6000, "ler": 0.003318, "ratio_mwpm": 1.0240740740740741, "sec": 97}
+{"seed": 3, "method": "hard_ls10", "N": 1000000, "steps": 6000, "ler": 0.00296, "ratio_mwpm": 0.9135802469135803, "sec": 92}
+{"seed": 3, "method": "hard_ls20", "N": 1000000, "steps": 6000, "ler": 0.003025, "ratio_mwpm": 0.933641975308642, "sec": 92}
+{"seed": 3, "method": "tess_T2", "N": 1000000, "steps": 6000, "ler": 0.003102, "ratio_mwpm": 0.9574074074074075, "sec": 92}
+{"seed": 4, "method": "hard_ls05", "N": 1000000, "steps": 6000, "ler": 0.003137, "ratio_mwpm": 0.9682098765432099, "sec": 92}
+{"seed": 4, "method": "hard_ls10", "N": 1000000, "steps": 6000, "ler": 0.003034, "ratio_mwpm": 0.9364197530864198, "sec": 92}
+{"seed": 4, "method": "hard_ls20", "N": 1000000, "steps": 6000, "ler": 0.003071, "ratio_mwpm": 0.9478395061728395, "sec": 92}
+{"seed": 4, "method": "tess_T2", "N": 1000000, "steps": 6000, "ler": 0.002616, "ratio_mwpm": 0.8074074074074074, "sec": 92}
+done

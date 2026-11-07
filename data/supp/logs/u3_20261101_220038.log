@@ -1,0 +1,37 @@
+[run.sh] 20261101_220038 mode=idle others_cores=4 threads=8 nice=0 cmd=iccde/u_runs.py a:7,8 c:4 b:7,8
+a: MWPM 0.00324
+{"seed": 7, "method": "hard", "N": 1000000, "steps": 6000, "ler": 0.006655, "ratio_mwpm": 2.0540123456790127, "sec": 96}
+{"seed": 7, "method": "hard_ls10", "N": 1000000, "steps": 6000, "ler": 0.005812, "ratio_mwpm": 1.7938271604938274, "sec": 92}
+{"seed": 8, "method": "hard", "N": 1000000, "steps": 6000, "ler": 0.006881, "ratio_mwpm": 2.1237654320987653, "sec": 92}
+{"seed": 8, "method": "hard_ls10", "N": 1000000, "steps": 6000, "ler": 0.005197, "ratio_mwpm": 1.6040123456790125, "sec": 92}
+c: MWPM 0.013862
+{"seed": 4, "beta": 1.0, "N": 300000, "steps": 1764, "ler_final": 0.034347, "ler_best": 0.034347, "ratio_final": 2.4777809839849954, "ratio_best": 2.4777809839849954, "sec": 31}
+{"seed": 4, "beta": 1.0, "N": 300000, "steps": 6000, "ler_final": 0.052073, "ler_best": 0.05138, "ratio_final": 3.7565286394459676, "ratio_best": 3.7065358534122064, "sec": 93}
+{"seed": 4, "beta": 2.0, "N": 300000, "steps": 1764, "ler_final": 0.028571, "ler_best": 0.028301, "ratio_final": 2.0611022940412638, "ratio_best": 2.0416245851969412, "sec": 31}
+{"seed": 4, "beta": 2.0, "N": 300000, "steps": 6000, "ler_final": 0.028588, "ler_best": 0.028535, "ratio_final": 2.0623286683018325, "ratio_best": 2.0585052661953545, "sec": 93}
+b: MWPM 0.00646, mean exact label 0.1666, hard 0.1711
+{"seed": 7, "method": "hard", "N": 10000, "steps": 6000, "ler": 0.010421, "ratio_mwpm": 1.6131578947368421, "sec": 29}
+{"seed": 7, "method": "hard", "N": 30000, "steps": 6000, "ler": 0.007748, "ratio_mwpm": 1.1993808049535604, "sec": 29}
+{"seed": 7, "method": "hard", "N": 100000, "steps": 6000, "ler": 0.00655, "ratio_mwpm": 1.0139318885448918, "sec": 30}
+{"seed": 7, "method": "hard", "N": 300000, "steps": 6000, "ler": 0.00585, "ratio_mwpm": 0.9055727554179568, "sec": 30}
+{"seed": 7, "method": "hard_ls10", "N": 10000, "steps": 6000, "ler": 0.010553, "ratio_mwpm": 1.63359133126935, "sec": 29}
+{"seed": 7, "method": "hard_ls10", "N": 30000, "steps": 6000, "ler": 0.007406, "ratio_mwpm": 1.1464396284829723, "sec": 29}
+{"seed": 7, "method": "hard_ls10", "N": 100000, "steps": 6000, "ler": 0.006273, "ratio_mwpm": 0.9710526315789474, "sec": 30}
+{"seed": 7, "method": "hard_ls10", "N": 300000, "steps": 6000, "ler": 0.005719, "ratio_mwpm": 0.8852941176470589, "sec": 30}
+{"seed": 7, "method": "exact", "N": 10000, "steps": 6000, "ler": 0.00716, "ratio_mwpm": 1.108359133126935, "sec": 29}
+{"seed": 7, "method": "exact", "N": 30000, "steps": 6000, "ler": 0.005951, "ratio_mwpm": 0.9212074303405573, "sec": 29}
+{"seed": 7, "method": "exact", "N": 100000, "steps": 6000, "ler": 0.005563, "ratio_mwpm": 0.8611455108359134, "sec": 30}
+{"seed": 7, "method": "exact", "N": 300000, "steps": 6000, "ler": 0.005373, "ratio_mwpm": 0.831733746130031, "sec": 30}
+{"seed": 8, "method": "hard", "N": 10000, "steps": 6000, "ler": 0.009483, "ratio_mwpm": 1.4679566563467494, "sec": 29}
+{"seed": 8, "method": "hard", "N": 30000, "steps": 6000, "ler": 0.007854, "ratio_mwpm": 1.2157894736842105, "sec": 29}
+{"seed": 8, "method": "hard", "N": 100000, "steps": 6000, "ler": 0.006559, "ratio_mwpm": 1.0153250773993807, "sec": 30}
+{"seed": 8, "method": "hard", "N": 300000, "steps": 6000, "ler": 0.005767, "ratio_mwpm": 0.8927244582043344, "sec": 30}
+{"seed": 8, "method": "hard_ls10", "N": 10000, "steps": 6000, "ler": 0.01014, "ratio_mwpm": 1.5696594427244583, "sec": 29}
+{"seed": 8, "method": "hard_ls10", "N": 30000, "steps": 6000, "ler": 0.007218, "ratio_mwpm": 1.1173374613003095, "sec": 29}
+{"seed": 8, "method": "hard_ls10", "N": 100000, "steps": 6000, "ler": 0.006307, "ratio_mwpm": 0.9763157894736842, "sec": 30}
+{"seed": 8, "method": "hard_ls10", "N": 300000, "steps": 6000, "ler": 0.005713, "ratio_mwpm": 0.8843653250773995, "sec": 30}
+{"seed": 8, "method": "exact", "N": 10000, "steps": 6000, "ler": 0.006764, "ratio_mwpm": 1.0470588235294118, "sec": 29}
+{"seed": 8, "method": "exact", "N": 30000, "steps": 6000, "ler": 0.006221, "ratio_mwpm": 0.9630030959752323, "sec": 29}
+{"seed": 8, "method": "exact", "N": 100000, "steps": 6000, "ler": 0.005427, "ratio_mwpm": 0.8400928792569661, "sec": 30}
+{"seed": 8, "method": "exact", "N": 300000, "steps": 6000, "ler": 0.005606, "ratio_mwpm": 0.8678018575851394, "sec": 30}
+done

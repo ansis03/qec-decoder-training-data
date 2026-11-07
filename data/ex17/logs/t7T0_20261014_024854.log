@@ -1,0 +1,6 @@
+[run.sh] 20261014_024854 mode=idle others_cores=4 threads=8 nice=0 cmd=ex17/t7_train7.py ex17/results/t6_labels7_20261013_222513.npz 1 tess_T2@1000000,tess_T4@1000000,mwpm_T2@1000000
+d=7 MWPM LER 1.341e-03, labels 1000000
+{"seed": 1, "method": "tess_T2", "N": 1000000, "steps": 6000, "ler": 0.009522, "ratio_mwpm": 7.100671140939597, "sec": 214}
+{"seed": 1, "method": "tess_T4", "N": 1000000, "steps": 6000, "ler": 0.006499, "ratio_mwpm": 4.846383296047725, "sec": 211}
+{"seed": 1, "method": "mwpm_T2", "N": 1000000, "steps": 6000, "ler": 0.008327, "ratio_mwpm": 6.209545115585383, "sec": 211}
+done

@@ -1,0 +1,9 @@
+* text=auto eol=lf
+# Result files are stored byte for byte as the experiments wrote them (some have Windows line endings).
+data/** -text
+# Derived files: numbers.json is rewritten by analysis/numbers.py, MD5SUMS by the build.
+data/numbers.json text eol=lf
+data/MD5SUMS text eol=lf
+*.npz binary
+*.npy binary
+*.pdf binary

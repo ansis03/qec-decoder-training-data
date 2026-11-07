@@ -1,0 +1,10 @@
+MWPM d=5 p=0.003: LER=3.34e-03  (3s)
+MWPM d=5 p=0.005: LER=1.41e-02  (4s)
+MWPM d=5 p=0.007: LER=3.50e-02  (5s)
+grid (6, 6, 6), detectors 120
+N=100000: label balance P(obs flip)=0.231
+NN uniform N=100000: LER=6.66e-02  vs MWPM 1.41e-02  (71s)
+N=1000000: label balance P(obs flip)=0.229
+NN uniform N=1000000: LER=2.53e-02  vs MWPM 1.41e-02  (252s)
+N=4000000: label balance P(obs flip)=0.230
+NN uniform N=4000000: LER=1.46e-02  vs MWPM 1.41e-02  (980s)

@@ -1,0 +1,4 @@
+[run.sh] 20261014_001533 mode=idle others_cores=4 threads=8 nice=0 cmd=ex17/t7_train7.py ex17/results/t6_labels7_500k.npz 2 tess_gap@500000
+d=7 MWPM LER 1.341e-03, labels 500000
+{"seed": 2, "method": "tess_gap", "N": 500000, "steps": 6000, "ler": 0.025168, "ratio_mwpm": 18.768083519761372, "sec": 215}
+done

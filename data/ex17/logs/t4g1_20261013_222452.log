@@ -1,0 +1,8 @@
+[run.sh] 20261013_222452 mode=idle others_cores=4 threads=16 nice=0 cmd=ex17/t4_compute.py ex17/results/t2_labels_20261013_182227.npz 3,4
+{"seed": 3, "method": "hard", "N": 1000000, "steps": 9780, "ler": 0.005012, "ratio_mwpm": 1.5469135802469136, "sec": 154}
+{"seed": 3, "method": "tess_gap", "N": 1000000, "steps": 9780, "ler": 0.003388, "ratio_mwpm": 1.045679012345679, "sec": 147}
+{"seed": 3, "method": "mwpm_gap", "N": 1000000, "steps": 9780, "ler": 0.004005, "ratio_mwpm": 1.2361111111111112, "sec": 147}
+{"seed": 4, "method": "hard", "N": 1000000, "steps": 9780, "ler": 0.003899, "ratio_mwpm": 1.203395061728395, "sec": 147}
+{"seed": 4, "method": "tess_gap", "N": 1000000, "steps": 9780, "ler": 0.002642, "ratio_mwpm": 0.8154320987654321, "sec": 147}
+{"seed": 4, "method": "mwpm_gap", "N": 1000000, "steps": 9780, "ler": 0.003875, "ratio_mwpm": 1.1959876543209877, "sec": 147}
+done

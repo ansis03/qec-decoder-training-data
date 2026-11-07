@@ -1,0 +1,4 @@
+[run.sh] 20261013_222144 mode=idle others_cores=4 threads=256 nice=0 cmd=ex17/t5_speed7.py
+beam 20: 3.98 s per shot (two decodes)
+beam 10: 2.37 s per shot (two decodes)
+beam 5: 1.56 s per shot (two decodes)
